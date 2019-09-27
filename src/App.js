@@ -19,22 +19,22 @@ const posts=[
 ]
 
 function App (){
-    const [valueIndex,setIndex] = useState(0)
+    const [openIndex,setOpenIndex] = useState(0)
      return (
         <div>
             {posts.map(({id,img,text},index)=>{
-                const isOpen =  valueIndex ===index;
-                const textValue = isOpen ? text:text.substring(0,100)
+                const isOpen =  openIndex ===index;
+                const textToShow = isOpen ? text:text.substring(0,100)+'....'
                 return  (
                     <div style={{border: isOpen ? '1px solid black':'none'}} className='container'  key={id}>
                         <div className='img-container'>
                             <img src={img} alt=""/>
                         </div>
                         <div>
-                            {textValue}
+                            {textToShow}
                         </div>
                         <div>
-                            {!isOpen &&<button onClick={()=>setIndex(index)}>button</button>}
+                            {!isOpen &&<button onClick={()=>setOpenIndex(index)}>button</button>}
                         </div>
                     </div>
                 )
