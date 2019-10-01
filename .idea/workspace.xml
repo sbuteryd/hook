@@ -3,13 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="0818deff-e596-4c2e-b0d6-ea31295a31af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +72,7 @@
       <workItem from="1569372475169" duration="79000" />
       <workItem from="1569372674864" duration="6940000" />
       <workItem from="1569459582409" duration="1992000" />
-      <workItem from="1569970221038" duration="302000" />
+      <workItem from="1569970221038" duration="691000" />
     </task>
     <servers />
   </component>
